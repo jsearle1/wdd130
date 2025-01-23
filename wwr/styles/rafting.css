@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #004BA8;
+    --secondary-color: #4a525a;
+    --accent-color-1: #eae1df;
+    --accent-color-2: #da2c38;
+    --heading-font: almandra-regular;
+    --text-font: oufit-light;
+}
+.almendra-regular {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* // <weight>: Use a value from 100 to 900 */
+.outfit-light {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header a {
+    text-decoration: none;
+}
+div.hero {
+    position: relative;
+}
+h1 {
+    font-family: var(--heading-font);
+    position: absolute;
+}
+article {
+    position: absolute;
+}
+article img {
+    float: right;
+}
+img#hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h2 {
+    font-family: var(--heading-font);
+}
+p {
+    font-family: var(--text-font);
+}
+header {
+    background-color: #eae1df;
+}
+section p {
+    background-color: #4a525a;
+}
+section img {
+    display: block;
+}
+main {
+    background-color: #004BA8;
+}
+footer {
+    background-color: #da2c38;
+}
