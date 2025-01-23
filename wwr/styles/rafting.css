@@ -23,42 +23,22 @@
 header a {
     text-decoration: none;
 }
-div.hero {
+div.hero{
     position: relative;
 }
 h1 {
-    font-family: var(--heading-font);
+    margin: 1rem;
     position: absolute;
 }
 article {
     position: absolute;
 }
-article img {
+.hero img {
     float: right;
 }
 img#hero-image {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
-}
-h2 {
-    font-family: var(--heading-font);
-}
-p {
-    font-family: var(--text-font);
-}
-header {
-    background-color: #eae1df;
-}
-section p {
-    background-color: #4a525a;
-}
-section img {
-    display: block;
-}
-main {
-    background-color: #004BA8;
-}
-footer {
-    background-color: #da2c38;
 }
