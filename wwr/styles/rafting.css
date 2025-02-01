@@ -135,18 +135,23 @@ div.hero{
 }
 .adventure {
     display: grid;
-    grid-area: 1 / 1 / 2 / 2;
+}
+.adventure figure {
+    display: block;
+    max-width: 200px;
+    text-align: center;
 }
 .gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: baseline;
 }
-.gallery img {
-    height: 180px;
+.adventure figure img {
+    max-width: 250px;
+    max-height: 150px;
 }
 /* ID Selectors */
 img#hero-image {
-    display: block;
     width: 100%;
     height: auto;
     margin-top: 0;
