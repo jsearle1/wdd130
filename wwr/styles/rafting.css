@@ -105,6 +105,7 @@ footer p {
     padding: 1rem;
     grid-column: 2/3;
     color: whitesmoke;
+    text-align: center;
 }
 footer a {
     padding: .5rem;
