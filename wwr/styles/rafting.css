@@ -67,14 +67,13 @@ h1 {
     font-style: normal;
     font-size: 55px;
 }
-h2 {
+h2, .heading{
     font-family: var(--heading-font);
     font-weight: 400;
     font-style: normal;
     color: var(--accent-color-2);
     padding: 0.5rem 0;
     text-align: center;
-
 }
 article {
     position: absolute;
@@ -114,6 +113,34 @@ footer a {
     display: flex;
     justify-content: flex-end;
 }
+form .user-info {
+    display: grid;
+}
+input {
+    padding: 0.5rem;
+    font-size: 1.1em;
+    margin-right: 60%;
+}
+input, select, textarea, label {
+    font-family: var(--text-font);
+    /* font-optical-sizing: auto; */
+    font-weight: 300;
+    font-style: normal;
+    padding: .5rem 0;
+}
+form button {
+    margin: 0 auto;
+    display: flex;
+    padding: 0.5rem 3rem;
+    border-radius: .5rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+}
+textarea {
+    margin: 1rem 0;
+    width: 100%;
+}
 /* Class Selectors */
 div.hero{
     position: relative;
@@ -151,6 +178,66 @@ div.hero{
     max-width: 250px;
     max-height: 150px;
 }
+
+.company {
+    display: grid;
+    text-align: center;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+.info {
+    padding: 1rem;
+    grid-column: 2;
+}
+.info p {
+    padding: 1rem 2rem;
+}
+.profile {
+    display: flex;
+    padding: 3rem;
+    border-bottom: 2px solid var(--accent-color-2);
+    align-items: center;
+}
+.details {
+    padding: 1rem;
+}
+.heading {
+        text-align: left;
+        font-size: 1.5em;
+}
+.form {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--accent-color-1);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 0, 0 / 0.4);
+    display: grid;
+    width: 600px;
+}
+.purpose h2 {
+    font-size: 1.5em;
+}
+.purpose {
+display: grid;}
+.quiry input {
+    margin: 0;
+    padding: 0.5em;
+}
+input[type="radio"] {
+    width: 1em;
+    height: 1em;
+    vertical-align: bottom;
+}
+div.check {
+    display: flex;
+    align-items: center;
+}
+.check input {
+    order: -1;
+    margin: 0.5rem;
+    width: 1em;
+    height: 1em;
+}
 /* ID Selectors */
 img#hero-image {
     width: 100%;
@@ -166,4 +253,16 @@ img#hero-image {
     grid-column: 3/4;
     grid-row: 2/3;
     margin: 1rem;
+}
+#employee-1 {
+    width: 200px;
+    clip-path: circle(50%);
+}
+#employee-2 {
+    width: 200px;
+    clip-path: circle(50%);
+}
+#employee-3 {
+    width: 200px;
+    clip-path: circle(50%);
 }
