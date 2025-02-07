@@ -270,3 +270,7 @@ img#hero-image {
     width: 200px;
     clip-path: circle(50%);
 }
+#wireframe {
+    width: 32px;
+    height: 32px;
+}
