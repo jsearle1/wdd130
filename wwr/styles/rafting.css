@@ -113,6 +113,10 @@ footer a {
     display: flex;
     justify-content: flex-end;
 }
+.media img {
+    width: 32px;
+    height: auto;
+}
 form .user-info {
     display: grid;
 }
