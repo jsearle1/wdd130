@@ -88,7 +88,7 @@ article {
 article img {
     float: right;
 }
-p {
+p, figcaption {
     font-family: var(--text-font);
     /* font-optical-sizing: auto; */
     font-weight: 300;
